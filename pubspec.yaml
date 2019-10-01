@@ -17,6 +17,9 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  bloc: ^0.15.0
+  flutter_bloc: ^0.21.0
+  equatable: ^0.6.0
   material_design_icons_flutter: 3.2.4495
   flutter:
     sdk: flutter

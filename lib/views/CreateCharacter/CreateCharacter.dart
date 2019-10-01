@@ -13,8 +13,8 @@ class CreateCharacterState extends State<CreateCharacter> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: BaseAppBar(
-        appBar: AppBar(),
+      appBar: AppBar(
+        title: Text("Создание персонажа: основное"),
       ),
       body: CreateCharacterMain(),
     );
